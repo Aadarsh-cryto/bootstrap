@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Loan</title>
+
+    <!-- Bootstrap 3 CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-inverse">
+
+        <div class="container">
+
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">My Bank</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="loans.html">Loans</a></li>
+                <li class="active"><a href="applyloan.html">Apply Loan</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <!-- Loan Application Form -->
+
+    <div class="container">
+
+        <div class="panel panel-primary">
+
+            <div class="panel-heading">
+                <h3 class="panel-title">Loan Application Form</h3>
+            </div>
+
+            <div class="panel-body">
+
+                <form>
+
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text"
+                               class="form-control"
+                               placeholder="Enter Your Full Name"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email"
+                               class="form-control"
+                               placeholder="Enter Email"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel"
+                               class="form-control"
+                               placeholder="Enter Phone Number"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Loan Type</label>
+
+                        <select class="form-control">
+
+                            <option>Personal Loan</option>
+                            <option>Car Loan</option>
+                            <option>Home Loan</option>
+                            <option>Education Loan</option>
+                            <option>Business Loan</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Loan Amount</label>
+
+                        <input type="number"
+                               class="form-control"
+                               placeholder="Enter Amount"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Address</label>
+
+                        <textarea class="form-control"
+                                  rows="4"
+                                  placeholder="Enter Address"
+                                  required></textarea>
+
+                    </div>
+
+                    <div class="checkbox">
+
+                        <label>
+                            <input type="checkbox" required>
+                            I agree to the bank terms and conditions
+                        </label>
+
+                    </div>
+
+                    <br>
+
+                    <button type="submit"
+                            class="btn btn-success btn-lg">
+                        Submit Application
+                    </button>
+
+                    <button type="reset"
+                            class="btn btn-danger btn-lg">
+                        Reset
+                    </button>
+
+                    <a href="index.html"
+                       class="btn btn-default btn-lg">
+                        Cancel
+                    </a>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="container text-center">
+
+        <hr>
+
+        <p>© 2026 My Bank. All Rights Reserved.</p>
+
+    </footer>
+
+    <!-- jQuery -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
